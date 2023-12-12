@@ -1,0 +1,46 @@
+/* styles.css (ou votre fichier CSS/Tailwind) */
+
+.chat {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.chat-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.chat-bubble {
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+/* Styles spécifiques pour l'émetteur du message */
+.chat-bubble-primary {
+  background-color: #3490dc; /* Couleur de fond pour les messages de l'utilisateur actuel */
+  color: #ffffff;
+}
+
+.chat-bubble-secondary {
+  background-color: #cbd5e0; /* Couleur de fond pour les messages des autres utilisateurs */
+  color: #000000;
+}
+
+/* Positionnement des messages */
+.chat-start {
+  text-align: left;
+}
+
+.chat-end {
+  text-align: right;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
